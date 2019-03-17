@@ -7,4 +7,9 @@
         'translated' => true,
         'maxlength' => 100
     ])
+
+    @formField('medias',[
+        'name' => 'hero_image',
+        'label' => 'Hero image',
+    ])
 @stop

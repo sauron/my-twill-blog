@@ -30,4 +30,15 @@ class Article extends Model
     public $checkboxes = [
         'published'
     ];
+
+    public $mediasParams = [
+        'hero_image' => [
+            'default' => [
+                [
+                    'name' => 'landscape',
+                    'ratio' => 16 / 9,
+                ]
+            ]
+        ]
+    ];
 }
