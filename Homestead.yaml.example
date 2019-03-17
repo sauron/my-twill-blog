@@ -1,0 +1,19 @@
+ip: 192.168.10.44
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    - map: INSERT_YOUR_CODEBASE_DIRECTORY
+      to: /home/vagrant/code
+sites:
+    - map: my-blog.dev.a17.io
+      to: '/home/vagrant/code/public'
+    - map: admin.my-blog.dev.a17.io
+      to: '/home/vagrant/code/public'
+databases:
+    - homestead
+name: my-blog
+hostname: my-blog
