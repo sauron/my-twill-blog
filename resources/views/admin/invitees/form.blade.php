@@ -4,8 +4,9 @@
     @formField('input', [
         'name' => 'bio',
         'label' => 'BIO',
+        'type' => 'textarea',
         'translated' => true,
-        'maxlength' => 100
+        'maxlength' => 300
     ])
 
     @formField('medias',[

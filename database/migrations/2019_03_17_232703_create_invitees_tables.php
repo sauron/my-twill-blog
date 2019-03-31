@@ -10,13 +10,13 @@ class CreateInviteesTables extends Migration
         Schema::create('invitees', function (Blueprint $table) {
 
             createDefaultTableFields($table);
-            $table->string('name');
 
         });
 
         Schema::create('invitee_translations', function (Blueprint $table) {
 
             createDefaultTranslationsTableFields($table, 'invitee');
+            $table->string('title')->nullable();
             $table->text('bio')->nullable();
 
         });

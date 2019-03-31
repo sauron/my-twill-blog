@@ -13,6 +13,13 @@
         'label' => 'Hero image',
     ])
 
+    @formField('browser', [
+        'moduleName' => 'invitees',
+        'name' => 'invitees',
+        'label' => 'Invitee',
+        'max' => 2
+    ])
+
     @formField('block_editor', [
         'blocks' => ['gallery', 'image_with_text', 'quote', 'paragraph']
     ])

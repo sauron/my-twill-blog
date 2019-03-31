@@ -13,15 +13,15 @@ class Invitee extends Model
 
     protected $fillable = [
         'published',
-        'name',
     ];
 
     public $translatedAttributes = [
+        'title',
         'bio',
     ];
 
     public $slugAttributes = [
-        'name',
+        'title',
     ];
 
     public $checkboxes = [
