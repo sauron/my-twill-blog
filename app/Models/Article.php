@@ -41,4 +41,9 @@ class Article extends Model
             ]
         ]
     ];
+
+    public function invitees()
+    {
+        return $this->belongsToMany(\App\Models\Invitee::class);
+    }
 }

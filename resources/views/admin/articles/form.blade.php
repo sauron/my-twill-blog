@@ -16,7 +16,7 @@
     @formField('browser', [
         'moduleName' => 'invitees',
         'name' => 'invitees',
-        'label' => 'Invitee',
+        'label' => 'Invitees',
         'max' => 2
     ])
 
