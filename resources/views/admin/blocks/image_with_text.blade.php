@@ -1,7 +1,6 @@
 @formField('medias', [
     'name' => 'cover',
     'label' => 'Image',
-    'note' => 'Minimum image width 1300px'
 ])
 
 @formField('input', [

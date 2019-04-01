@@ -26,7 +26,7 @@ return [
             ],
         ],
         'crops' => [
-            'image' => [
+            'cover' => [
                 'default' => [
                     [
                         'name' => 'default',
