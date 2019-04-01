@@ -5,4 +5,7 @@
   <h1>{{ $item->title }}</h1>
   <p>{{ $item->description }}</p>
 </div>
+<div class='content'>
+  {!! $item->renderBlocks(false) !!}
+</div>
 
